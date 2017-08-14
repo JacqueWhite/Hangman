@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <title>Hangman-Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-12"> 
+            <header>
+                <h1> HANGMAN </h1>
+            </header>
+            </div>
+        </div>
+        
+        <div class="row">
+           <div class="col-sm-12"> 
+            <h4> Press any key to guess</h4>
+           </div>
+        </div>
+
+        <div class="row">
+           <div class="col-sm-12"> 
+                <p> Wins: </p>
+                <p id="wins"> </p>
+                <p> Current Word: </p>
+                <p id="currentGuesses"> </p>
+                <p> Guesses Remaining: </p>
+                <p id="guessesRemaining"></p> 
+                <p> Letters already guessed: </p>
+            </div>
+        </div>
+                
+        <div class="row">
+           <div class="col-sm-12"> 
+        <p id="box"> </p>
+            </div>
+        </div>
+    
+    </div>
+
+    <script src="assets/javascript/javascript.js"></script>
+</body>
+</html>
